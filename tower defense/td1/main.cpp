@@ -1,5 +1,5 @@
-//#include <SFML/Graphics.hpp>
-//#include "gameObject.h"
+#include <SFML/Graphics.hpp>
+#include "gameObject.h"
 #include <windows.h>
 #include <iostream>
 #include <vector>
@@ -17,18 +17,18 @@ int main(int argc, char** argv)
     int width = 1280;
     int height = 720;
 
-    //sf::RenderWindow oWindow(sf::VideoMode(width, height), "Tower Defense");
+    sf::RenderWindow oWindow(sf::VideoMode(width, height), "Tower Defense");
 
     //Variables
 
 
     //DeltaTime
-    //sf::Clock oClock;
+    sf::Clock oClock;
     float fDeltaTime;
 
 
     //GameLoop
-    /*while (oWindow.isOpen())
+    while (oWindow.isOpen())
     {
 
         fDeltaTime = oClock.restart().asSeconds();
@@ -43,7 +43,7 @@ int main(int argc, char** argv)
         oWindow.display();
 
 
-    }*/
+    }
     return 0;
 }
 
