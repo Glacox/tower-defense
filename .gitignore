@@ -259,19 +259,3 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
-
-.vscode/
-/bin
-
-# ignore stuff from SFML.Net
-
-obj/
-lib/
-examples/*/*.dll
-examples/*/*.xml
-*.exe
-*.manifest
-*.pdb
-*.suo
-*.csproj.user
-*.VC.db
